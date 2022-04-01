@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Volkhov';
+    font-family: 'Varta';
+}
+.container{
+    width: 1080px;
+    margin: 0 auto;
+}
+.bbb{
+    position: relative;
+}
+.ccc{
+    position: absolute;
+    width: 1600px;
+    height: 1600px;
+    left: -125px;
+    // top: -1000px;
+    bottom: 250px;
+    background: #6661FF;
+    border-radius: 1171px;
+    z-index: -1;
+}
+.icon{
+    margin-bottom: 100px;
+    padding-top: 30px;
+}
+.dollar{
+    font-family: 'Volkhov';
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 124px;
+    color: #1D1D1D;
+    margin-left: 90px;
+}
+.images{
+    width: 900px;
+    height: 900px;
+    margin: 0 auto;
+    display: block;
+    margin-top: -300px;
+}
+.shoes_post{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+    .shoes_name{
+        font-family: 'Varta';
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 80px;
+        color: #2B2B2B;
+    }
+    .funt{
+        font-family: 'Varta';
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 80px;
+        color: #2B2B2B;
+    }
+}
+.shoes_text{
+    font-family: 'Varta';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 52px;
+    color: #818181;
+    margin-bottom: 50px;
+}
+.shoes_list{
+    display: flex;
+    justify-content: space-between;
+}
+.shoes_img{
+    background-color: rgb(224, 219, 214);
+    border-radius: 40px;
+    width: 300px;
+    height: 300px;
+    transition: 1s;
+}
+.shoes_img:hover{
+    border: solid;
+    width: 330px;
+    height: 330px;
+}
+.shoes_size{
+    margin-top: 87px;
+    font-family: 'Varta';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    color: #2B2B2B;
+    margin-bottom: 87px;
+}
+.size_list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 66px;
+}
+.size_list2{
+    justify-content: space-between;
+    display: flex;
+}
+.size{
+    border: 1px solid #000000;
+    border-radius: 30px;
+    font-family: 'Varta';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 52px;
+    color: #000000;
+    padding: 15px 60px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    height: 90px;
+    transition: 1s;
+}
+.active{
+    border: none;
+    background: rgba(196, 196, 196, 0.4);
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.size:hover{
+    border: solid 2px;
+    background-color: #2B2B2B;
+    color: #fff;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 161px;
+}
+.shoes_button{
+    text-decoration: none;
+    color: #fff;
+    background-color: #2B2B2B;
+    border-radius: 30px;
+    padding: 46px 310px;
+    font-family: 'Varta';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    transition: 1s;
+}
+.shoes_button:hover{
+    background-color: #fff;
+    color: #2B2B2B;
+    border: solid 2px;
+}
+
